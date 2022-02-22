@@ -1,0 +1,349 @@
+html {
+    background-color: #E0E3FF;
+    font-family: 'Inter', sans-serif;
+}
+
+.hovLog:hover {
+    opacity: 0.8;
+    transition-delay: 0.5;
+    transition-duration: 1.5s;
+}
+
+.logWindow {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 10px;
+    float: left;
+}
+
+.logWindowDark {
+    width: 400px;
+    height: 400px;
+    background: #121212;
+    border-radius: 10px;
+    float: left;
+    margin-left: 34px;
+}
+
+.regWindow {
+    width: 400px;
+    height: 600px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 24px;
+    float: left;
+}
+
+.regWindowDark {
+    margin-left: 34px;
+    width: 400px;
+    height: 600px;
+    background: #121212;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 24px;
+    float: left;
+}
+
+.regs {
+    margin-top: 46px;
+}
+
+.logs {
+    margin-top: 46px;
+}
+
+.forms {
+    position: absolute;
+    left: calc(50% - 410px);
+}
+
+.loginText {
+    text-align: center;
+    color: #252EFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 53px;
+}
+
+.loginTextDark {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+}
+
+.registerText {
+    margin: 0%;
+    padding-top: 36px;
+    color: #252EFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    text-align: center;
+    
+}
+
+.registerTextDark {
+    margin: 0%;
+    padding-top: 36px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    text-align: center;
+}
+
+.formSection {
+    position: relative;
+    width: 352px;
+    height: 42px;
+    border: 2px solid #6066FF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.formSectionReg1 {
+    position: relative;
+    width: 352px;
+    height: 42px;
+    border: 2px solid #6066FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 22px;
+    margin-top: 69px;
+}
+
+.formSectionReg2 {
+    position: relative;
+    width: 352px;
+    height: 42px;
+    border: 2px solid #6066FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 22px;
+    margin-top: 15px;
+}
+
+/* .formSectionDark::-webkit-input-placeholder {
+    color: #c0392b;
+}
+.formSectionDark::-moz-placeholder { 
+    color: #c0392b;
+}
+.formSectionDark:-ms-input-placeholder {
+    color: #c0392b;
+}
+.formSectionDark:-moz-placeholder { 
+    color: #c0392b;
+} */
+
+.formSection::placeholder {
+    color: #000;
+    opacity: 0.7;
+}
+
+.formSectionReg1::placeholder {
+    color: #000;
+    opacity: 0.7;
+}
+
+.formSectionReg2::placeholder {
+    color: #000;
+    opacity: 0.7;
+}
+
+.formSectionRegDark1 {
+    width: 352px;
+    height: 42px;
+    border: 2px solid #6066FF;
+    background: #121212;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 22px;
+    margin-top: 69px;
+}
+
+.formSectionRegDark2 {
+    width: 352px;
+    height: 42px;
+    border: 2px solid #6066FF;
+    background: #121212;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 22px;
+    margin-top: 15px;
+}
+
+.formSectionDark {
+    position: relative;
+    width: 352px;
+    height: 42px;
+    border: 2px solid #6066FF;
+    background: #121212;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+
+ .formSectionDark::placeholder {
+    color: #fff;
+}
+
+.formSectionRegDark1::placeholder {
+    color: #fff;
+}
+
+.formSectionRegDark2::placeholder {
+    color: #fff;
+}
+
+
+.logButton {
+    width: 176px;
+    height: 42px;
+    background: #252EFF;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding-left: calc(-50%, 88px);
+}
+
+.logButtonDark {
+    width: 176px;
+    height: 42px;
+    background: #8B54FF;
+    border: 2px solid #9CA6FF;
+    border-radius: 20px;
+    color: #fff;
+    padding-left: calc(-50%, 88px);
+}
+
+.buttonAl {
+    position: relative;
+    top: 50px;
+    left: 112px;
+}
+
+.userName {
+    position: relative;
+    left: 24px;
+}
+
+.passWord {
+    position: relative;
+    top: 19px;
+    left: 24px;
+}
+
+.userNameDark {
+    position: relative;
+    left: 24px;
+}
+
+.userNameDark {
+    position: relative;
+    left: 24px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.regButton {
+    margin-top: 49px;
+    width: 352px;
+    height: 42px;
+    background: #252EFF;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.haveAccount {
+    margin-top: 14px;
+    width: 352px;
+    height: 42px;
+    background: #5E64FF;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: calc(-50%, 88px);
+    font-family: 'Inter', sans-serif;
+}
+
+.regButtonDark {
+    margin-top: 49px;
+    width: 352px;
+    height: 42px;
+    background: #8B54FF;
+    border: 2px solid #9CA6FF;
+    border-radius: 20px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: calc(-50%, 88px);
+    font-family: 'Inter', sans-serif;
+}
+
+.haveAccountDark {
+    margin-top: 14px;
+    width: 352px;
+    height: 42px;
+    background: #5E64FF;
+    border: 2px solid #9CA6FF;
+    border-radius: 20px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: calc(-50%, 88px);
+    font-family: 'Inter', sans-serif;
+}
+
+.noSelect {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
